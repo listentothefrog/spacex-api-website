@@ -17,7 +17,7 @@ window.addEventListener('load', () => { // stop loading animation when page is d
     console.log(data.links.webcast)
     header.innerHTML=data.name;
     description.innerHTML=data.details;
-    image.src=data.links.flickr.original[0]
     watchUrl.href=data.links.webcast
+    image.src=data.links.flickr.original[0]
   });
 })
